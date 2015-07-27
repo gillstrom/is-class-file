@@ -1,6 +1,6 @@
 {
   "name": "is-class-file",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Check if a Buffer/Uint8Array is a .class file.",
   "license": "MIT",
   "repository": "gillstrom/is-class-file",
