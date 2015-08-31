@@ -7,7 +7,7 @@ var isClassFile = require('../');
 test('Should be true for .class files.', function (t) {
 	t.plan(2);
 
-		readChunk(path.join(__dirname, 'fixtures/test.class'), 0, 4, function (err, buf) {
+	readChunk(path.join(__dirname, 'fixtures/test.class'), 0, 4, function (err, buf) {
 		t.assert(!err, err);
 		t.assert(isClassFile(buf));
 	});
